@@ -5,7 +5,6 @@ function consulta(){
         url: url,
         typt: "GET",
         success: function(response){
-            console.log(response)
             document.querySelector("#bairro").innerHTML = response.bairro
             document.querySelector("#localidade").innerHTML = response.localidade
             document.querySelector("#ddd").innerHTML = response.ddd
